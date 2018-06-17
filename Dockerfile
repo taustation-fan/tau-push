@@ -8,3 +8,4 @@ COPY static/* /app/static/
 WORKDIR /app
 EXPOSE 10000
 RUN perl6 -c bin/server.p6
+ENTRYPOINT perl6 bin/server.p6
