@@ -79,6 +79,7 @@ sub html-layout-default (Str:D $content) {
       <div id="content">
         \qq[$content]
       </div>
+      <footer><a href="https://github.com/moritz/tau-push">Source on GitHub</a></footer>
       <script src="https://code.jquery.com/jquery-latest.min.js"></script>
       <script src="/push.min.js"></script>
       <script src="/main.js"></script>
